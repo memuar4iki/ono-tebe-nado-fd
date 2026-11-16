@@ -3,41 +3,135 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px;
 }
+
 .header__links-list {
   display: flex;
   gap: 23px;
 }
+
 .header__link {
   font-size: 18px;
   font-weight: 400;
   font-family: Raleway;
 }
+
 .header__links-list-item{
   list-style: circle;
 }
+
 .header__links-list-item_no-bullit{
   list-style: none;
 }
+
 .header__link_active{
   text-decoration: none;
 }
+
 .header__logo {
   display: block;
   width: 148px;
 }
+
 .address {
   display: flex;
   flex-direction: column;
   font-style: inherit;
 }
+
 .header__address{
   max-width: 240px;
   align-items: flex-start;
   justify-self: end; 
 }
+
+.cover {
+  position: relative;
+  min-height: 757px;
+  background-image: url(../ono-tebe-nado-fd/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 165px 50px 50px;
+}
+
+.overlay {
+  position: absolute;
+  opacity: .6;
+  inset: 0;
+  z-index: 0;
+  background-color: rgba(0,0,0,1);
+}
+
+.cover__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color:rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+  letter-spacing: 30px;
+}
+
+.remove-spacing {
+  letter-spacing: normal;
+  margin-left: -.6em;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 78px;
+  padding: 136px 0 0;
+}
+
+.cover__description-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 12px 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+
