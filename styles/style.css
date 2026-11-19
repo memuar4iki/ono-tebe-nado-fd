@@ -22,11 +22,11 @@
   font-family: Raleway;
 }
 
-.header__links-list-item{
+.header__links-list-item {
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -48,7 +48,7 @@
   font-family: Raleway;
 }
 
-.header__address{
+.header__address {
   max-width: 240px;
   align-items: flex-start;
   justify-self: end; 
@@ -234,7 +234,7 @@ a:not(:visited) {
   min-height: 449px;
 }
 
-.about__column{
+.about__column {
   justify-self: center;
 }
 
