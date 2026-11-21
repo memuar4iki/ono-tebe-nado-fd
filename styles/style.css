@@ -19,7 +19,7 @@
 .header__link {
   font-size: 18px;
   font-weight: 400;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 
 .header__links-list-item {
@@ -45,7 +45,7 @@
   font-style:inherit;
   font-size: 18px;
   font-weight: 400;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 
 .header__address {
@@ -114,7 +114,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 78px;
-  padding: 136px 0 0;
+  padding: 106px 0 0;
 }
 
 .cover__description-text {
@@ -175,24 +175,20 @@
   padding: 50px 40px;
   flex-wrap: wrap;
   z-index: 1;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card__title {
@@ -277,7 +273,7 @@ a:not(:visited) {
   display: flex;
   justify-content: space-between;
   margin-top: 180px;
-  padding: 50px 0 50px 82px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer__menu-list {
@@ -288,7 +284,7 @@ a:not(:visited) {
 .footer__menu-link {
   font-size: 18px;
   font-weight: 400;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 
 .footer__social-list {
