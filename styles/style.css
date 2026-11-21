@@ -8,12 +8,12 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 95px 50px 96px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 23px;
+  gap: 26px;
 }
 
 .header__link {
